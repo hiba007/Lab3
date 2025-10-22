@@ -8,11 +8,11 @@
 
 ## Installation
 
-You can install the development version of lab3 from [GitHub](https://github.com/) with:
+You can install the release of lab3 from [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("pak")
-pak::pak("hiba007/Lab3")
+library("devtools")
+devtools::install_github("hiba007/Lab3", ref = "v1.0")
 ```
 
 ## Example
