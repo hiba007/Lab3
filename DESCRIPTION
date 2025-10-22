@@ -1,0 +1,20 @@
+Package: lab3
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Pirzada Hiba Tur", "Rehman",
+      email = "pirre015@student.liu.se",
+      role = c("aut", "cre")
+    )
+  )
+Description: This package provides functions to compute Euclidean distances
+    and to find shortest paths using Dijkstra’s algorithm. It is designed
+    for efficient distance calculations and graph-based pathfinding in R.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
