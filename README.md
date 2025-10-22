@@ -1,5 +1,5 @@
 
-# lab3
+# Lab3
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/hiba007/Lab3/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/hiba007/Lab3/actions/workflows/R-CMD-check.yaml)

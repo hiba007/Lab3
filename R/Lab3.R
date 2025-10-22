@@ -65,6 +65,9 @@ dijkstra <- function(graph, init_node)
   if((!is.data.frame(graph)) || (ncol(graph) != 3))
     stop("This is not required structure of Dataframe")
 
+  if(!(init_node %in% c(wiki_graph$v1, wiki_graph$v2)))
+    stop("Source node is not present in graph")
+
   if(!is.numeric(init_node))
     stop("Source node is not numeric")
 
